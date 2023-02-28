@@ -1,0 +1,32 @@
+h1{
+    color: blueviolet;
+}
+body{
+    /* background-image: url(./images/download.jpg);
+    background-repeat:no-repeat ;
+    background-position: center; */
+    /* background-attachment:scroll ; */
+    border-style: double;
+    border-color:black;
+    border-width: 4px;
+    border-radius: 20px;
+    border-top-style: groove;
+    border-left-style: dotted;
+    border-right-style: none;
+}
+#para1{
+    color: brown;
+    border-style: dashed;
+    border-color:blue;
+}
+#para2{
+    color: aqua;
+    border-style: dotted;
+    border-color:purple;
+}
+.one {
+    font-size: larger;
+    font-style: italic;
+    color:goldenrod;
+    background-color: aquamarine;
+}

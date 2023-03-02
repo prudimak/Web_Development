@@ -1,0 +1,30 @@
+body{
+    background-color:aqua;
+}
+.top-div{
+    margin: auto;
+    border: 2px solid;
+    text-align: center;
+    background-color:plum;
+    padding: 10px;
+    width: 500px;
+    margin-top: 150px;
+}
+.title{
+    font-size: 50px;
+}
+.credentials{
+    padding: 10px;
+    font-size: 15px; ;
+}
+#username_input{
+    margin-bottom:30px ;
+}
+#password{
+    margin-bottom:30px ;
+}
+#button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+}

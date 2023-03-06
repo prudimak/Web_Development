@@ -33,3 +33,47 @@ a:hover{
     overflow-y: none;
     margin-left: 20px;
 }
+.name{
+    font-size: 40px;
+    color: rgb(118, 118, 237);
+    margin: 10px;
+    padding: 10px;
+}
+.main{
+   margin-left: 250px; 
+}
+.intro-text{
+    font-size: 25px;
+}
+.main a{
+    color: blueviolet;
+}
+.contact{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:8px ;
+    color: white;
+    background-color: black;
+}
+.contact a:hover{
+    color: black;
+    background-color: white;
+    transition: 200ms ease-in-out;
+}
+.read a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:8px ;
+    color: white;
+    background-color: black;
+}
+.read a:hover{
+    color: black;
+    background-color: white;
+    transition: 200ms ease-in-out;
+}

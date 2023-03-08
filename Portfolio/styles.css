@@ -24,7 +24,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: bisque;
+    color: white;
     padding: 8px 25px;
     transition: all .5s ease;
 }
@@ -59,6 +59,114 @@
     right: 10%;
 }
 .headings{
-    color: darkgrey;
-    padding-top: 100px;
+    color:white;
+    padding-top: 120px;
+    font-family: 'Tilt prism';
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white ;
+    font-weight: bold;
+}
+/* about section */
+#about{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height:400px
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#headings{
+    text-align: center;
+    font-family: 'Tilt Prism';
+    font-size: 3em;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/* portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+}
+/* contacts section */
+#services{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.heads{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}
+.head{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(32, 23, 23) 50%, black 50%);
 }

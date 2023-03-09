@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 *{
     margin: 0;
     padding: 0;
@@ -156,6 +159,7 @@
 }
 .row{
     display: flex;
+    justify-content: space-around;
 }
 .box{
     display: flex;
@@ -168,5 +172,19 @@
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(32, 23, 23) 50%, black 50%);
+    background: linear-gradient(to top, rgb(85, 83, 83) 50%,black 50%);
+    background-size: 100% 20px;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow:0 0 20px rgb(85, 83, 83) 50%;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
 }
